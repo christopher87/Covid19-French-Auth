@@ -21,6 +21,7 @@ function refreshData() {
     }
     document.querySelector("#generation-link > a").href = window.location.origin + "/generate.html#" + serialize(data);
     document.querySelector("#generation-link > a").innerText = window.location.origin + "/generate.html#" + serialize(data);
+    document.querySelector("#generation-link").style.display = 'block';
 }
 
 function serialize(obj) {
