@@ -41,50 +41,50 @@
                 <label for="first-name">
                     Prénom
                 </label>
-                <input type="text" id="first-name" name="firstname" autocomplete="given-name" placeholder="Jean" aria-labelledby="field-firstname-label" required="" autofocus="">
+                <input type="text" id="first-name" name="firstname" autocomplete="given-name" placeholder="Jean" aria-labelledby="field-firstname-label" required autofocus>
             </div>
             <div class="form-group">
                 <label for="last-name">
                     Nom
                 </label>
-                <input type="text" id="last-name" name="lastname" autocomplete="family-name" placeholder="Dupont" aria-labelledby="field-lastname-label" required="" autofocus="">
+                <input type="text" id="last-name" name="lastname" autocomplete="family-name" placeholder="Dupont" aria-labelledby="field-lastname-label" required>
             </div>
             <div class="form-group">
                 <label for="birthdate">
                     Date de naissance
                 </label>
-                <input type="text" inputmode="numeric" id="birthdate" name="birthday" autocomplete="bday" placeholder="01/01/1970" maxlength="10" aria-labelledby="field-birthday-label" required="">
+                <input type="text" id="birthdate" name="birthday" autocomplete="bday" placeholder="01/01/1970" maxlength="10" aria-labelledby="field-birthday-label" required>
             </div>
             <div class="form-group">
                 <label for="birth-place">
                     Lieu de naissance
                 </label>
-                <input type="text" id="birth-place" name="lieunaissance" aria-labelledby="field-lieunaissance-label" placeholder="Lyon" required="">
+                <input type="text" id="birth-place" name="lieunaissance" aria-labelledby="field-lieunaissance-label" placeholder="Lyon" required>
             </div>
             <div class="form-group">
                 <label for="address">
                     Adresse
                 </label>
-                <input type="text" id="address" name="address" autocomplete="address-line1" aria-labelledby="field-address-label" placeholder="999 avenue de france" required="">
+                <input type="text" id="address" name="address" autocomplete="address-line1" aria-labelledby="field-address-label" placeholder="999 avenue de france" required>
             </div>
             <div class="form-group">
                 <label for="city">
                     Ville
                 </label>
-                <input type="text" id="city" name="town" autocomplete="address-level1" aria-labelledby="field-town-label" placeholder="Paris" required="">
+                <input type="text" id="city" name="town" autocomplete="address-level1" aria-labelledby="field-town-label" placeholder="Paris" required>
             </div>
             <div class="form-group">
                 <label for="address">
                     Code postal
                 </label>
-                <input type="number" min="00000" max="99999" id="post-code" name="post-code" autocomplete="zipcode" minlength="4" maxlength="5" aria-labelledby="field-zipcode-label" placeholder="75001" required="">
+                <input type="number" min="00000" max="99999" id="post-code" name="post-code" autocomplete="zipcode" minlength="4" maxlength="5" aria-labelledby="field-zipcode-label" placeholder="75001" required>
             </div>
             <div class="form-group">
                 <label for="motive">
                     Raison
                 </label>
-                <select id="motive" name="motive">
-                    <option value="0">Sélectionnez une raison...</option>
+                <select id="motive" name="motive" required>
+                    <option value="">Sélectionnez une raison...</option>
                     <option value="travail">Travail</option>
                     <option value="achats">Achats</option>
                     <option value="enfants">Enfants</option>
