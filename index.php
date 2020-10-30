@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Générateur attestation Covid</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="favicon.png">
     <style>
         .form-group {
@@ -13,6 +14,13 @@
         }
         #generation-link {
             margin: 20px 0;
+        }
+
+        @media (max-width: 600px) {
+            .form-group input,
+            .form-group select {
+                width: 90%;
+            }
         }
     </style>
 </head>
@@ -25,7 +33,7 @@
         <p>
             Remplissez le formulaire, et sauvegardez le lien généré qui vous sera proposé après validation.
             <br>
-            A chaque lancement de ce lien, cela vous générera une attestation avec vos informations, à date et heure du moment de la génération.
+            A chaque lancement de ce lien, cela vous générera une attestation avec vos informations, à date et heure du moment.
         </p>
 
         <form id="form-profile">
