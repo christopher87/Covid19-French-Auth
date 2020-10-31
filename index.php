@@ -15,6 +15,12 @@
         #generation-link {
             margin: 20px 0;
         }
+        #my-data {
+            margin: 20px 0;
+        }
+        #my-data a {
+            color: #000;
+        }
 
         @media (max-width: 600px) {
             .form-group input,
@@ -98,6 +104,10 @@
             </div>
         </form>
         <button onclick="refreshData()">Valider</button>
+
+        <div id="my-data" style="display: none;">
+            <a href="#">Oublier mes données <small>(sauvegardées au sein du navigateur)</small></a>
+        </div>
 
         <div id="generation-link" style="display: none;">
             Votre lien :
