@@ -42,6 +42,10 @@
             A chaque lancement de ce lien, cela vous générera une attestation avec vos informations, à date et heure du moment.
         </p>
 
+        <p>
+            Le lien du PDF étant temporaire, il est vivement conseillé de sauvegarder le PDF généré sur votre téléphone ou sur votre ordinateur.
+        </p>
+
         <form id="form-profile">
             <div class="form-group">
                 <label for="first-name">

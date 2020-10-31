@@ -43,8 +43,6 @@ if (window.localStorage) {
         });
         
         if (value = window.localStorage.getItem(id)) {
-            console.log(id);
-            console.log(value);
             inputs[i].value = value;
             document.getElementById('my-data').style.display = 'block';
         }
