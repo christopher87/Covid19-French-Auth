@@ -28,12 +28,16 @@
             <input type="radio" name="field-reason" id="radio-missions" value="missions">
 
             <input type="date" id="field-datesortie" name="datesortie" placeholder="JJ/MM/YYYY" required="">
-            <input type="time" id="field-heuresortie" name="heure" required="">
+            <input type="time" id="field-heuresortie" name="heuresortie" required="">
+            <input type="checkbox" name="storedata" id="field-storedata" value="storedata">
+            <div class="bg-primary d-none" id="snackbar-cleardata"> Les données du formulaire et les données sauvegardées ont été effacées. </div>
+            <div class="bg-primary d-none" id="snackbar"> L'attestation est téléchargée sur votre appareil. </div>
+            <button type="button" id="cleardata">Clear data</button>
             <div id="generate-btn">done</div>
             <div id="reason-fieldset"><div class="msg-alert"></div></div>
         </form>
     </div>
     <p style="display: none" id="version">2020 - c35428a</p>
-    <script src="https://media.interieur.gouv.fr/deplacement-covid-19/main.02381a6a.js" onerror="badScriptLoading()"></script>
+    <script src="https://media.interieur.gouv.fr/deplacement-covid-19/main.90bd2118.js" onerror="badScriptLoading()"></script>
 </body>
 </html>
