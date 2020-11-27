@@ -15,7 +15,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
     const reason = urlParams.get("r"); //reason
     document.getElementById("radio-travail").checked = (reason==='travail');
-    document.getElementById("radio-achats").checked = (reason==='achats');
+    document.getElementById("radio-achats").checked = (reason==='achats_culturel_cultuel');
     document.getElementById("radio-enfants").checked = (reason==='enfants');
     document.getElementById("radio-sport_animaux").checked = (reason==='sport_animaux');
     document.getElementById("radio-sante").checked = (reason==='sante');
@@ -35,6 +35,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
 function badScriptLoading(event) {
     console.log("Official JS is not working. Patching using local copy.")
     let script = document.createElement('script');
-    script.src = "deplacement-covid-19/main.90bd2118.js";
+    script.src = "deplacement-covid-19/main.833af409.js";
     document.head.append(script)
 }
